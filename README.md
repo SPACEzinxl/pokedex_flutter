@@ -9,7 +9,7 @@ O aplicativo traz uma experiência completa de um **Trainer Card** (Cartão de T
 ## 🎬 Demonstração & Screenshots
 
 ### 📹 Vídeo do Aplicativo em Ação
-🎥 **[Clique aqui para assistir ao vídeo de demonstração do aplicativo](videoaplicativo.mp4)**
+<video src="videoaplicativo.mp4" controls width="100%"></video>
 
 ### 📸 Telas do Aplicativo
 
