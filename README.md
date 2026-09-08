@@ -1,16 +1,60 @@
-# pokedex_mobile
+# ⚡ Pokédex Mobile / Trainer Card — Meu Primeiro Projeto em Flutter 🎮
 
-A new Flutter project.
+Bem-vindo ao **Pokédex Mobile**, um aplicativo interativo inspirado no universo Pokémon desenvolvido como o meu primeiro projeto em **Flutter** e **Dart**! 🎉
 
-## Getting Started
+O aplicativo traz uma experiência completa de um **Trainer Card** (Cartão de Treinador) interativo, exibindo perfil do treinador, insígnias de ginásio e um time de Pokémon detalhado com navegação para telas individuais.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Funcionalidades do Aplicativo
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🆔 1. Trainer Card (Perfil do Treinador)
+- **Perfil Customizado**: Avatar do treinador, nome (*Samuel Fernando*) e indicador de pontuação/moedas.
+- **Badge de Categoria**: Tag estilizada (*Kanto League Champion*).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🏅 2. Galeria de Insígnias (Kanto Badges)
+- Carrossel horizontal rolável (`SingleChildScrollView`) exibindo as **8 Insígnias da Liga Kanto**:
+  - Insígnia da Rocha (*Boulder Badge*)
+  - Insígnia da Cascata (*Cascade Badge*)
+  - Insígnia do Trovão (*Thunder Badge*)
+  - Insígnia do Arco-Íris (*Rainbow Badge*)
+  - Insígnia da Alma (*Soul Badge*)
+  - Insígnia do Trovão / Aço (*Marsh Badge*)
+  - Insígnia do Vulcão (*Volcano Badge*)
+  - Insígnia da Terra (*Earth Badge*)
+
+### ⚔️ 3. Battle Team (Time de Batalha)
+- Grid de Pokémon com imagens e GIFs animados:
+  - **Charizard** 🔥
+  - **Lucario** 👊
+  - **Gengar** 👻
+  - **Garchomp** 🐉
+  - **Tyranitar** 🪨
+  - **Gardevoir** 🔮
+- **Navegação Dinâmica**: Ao clicar em qualquer Pokémon do time, o usuário abre a tela individual correspondente (`charizard_page.dart`, `garchomp_page.dart`, etc.).
+
+---
+
+## 🎨 Arquitetura e Organização de Código
+
+O projeto segue boas práticas de organização em Flutter, separando telas, regras e estilos visuais em diretórios estruturados:
+
+```text
+pokedex_mobile/
+├── assets/
+│   └── images/               # GIFs e PNGs dos Pokémon e Insígnias
+├── lib/
+│   ├── main.dart             # Ponto de entrada da aplicação
+│   ├── pages/                # Telas do aplicativo
+│   │   ├── home_page.dart
+│   │   ├── login_page.dart
+│   │   ├── treinador_page.dart
+│   │   ├── charizard_page.dart
+│   │   ├── garchomp_page.dart
+│   │   ├── gardevoir_page.dart
+│   │   ├── gengar_page.dart
+│   │   └── tyranitar_page.dart
+│   └── styles/               # Estilizações e temas centralizados
+│       ├── home_style.dart
+│       ├── login_style.dart
+│       └── treinador_style.dart
