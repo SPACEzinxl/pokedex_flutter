@@ -11,7 +11,7 @@ O aplicativo traz uma experiência completa de um **Trainer Card** (Cartão de T
 ## 🎬 Demonstração & Screenshots
 
 ### 📹 Vídeo do Aplicativo em Ação
-<video src="https://raw.githubusercontent.com/SPACEzinxl/pokedex_flutter/main/videoaplicativo.mp4" autoplay loop muted playsinline controls width="100%"></video>
+<video src="videoaplicativo.mp4" autoplay loop muted playsinline controls width="100%"></video>
 
 ### 📸 Telas do Aplicativo
 
@@ -65,6 +65,10 @@ O aplicativo traz uma experiência completa de um **Trainer Card** (Cartão de T
 O projeto segue boas práticas de organização em Flutter, separando telas, regras e estilos visuais em diretórios estruturados:
 
 ```text
+
+
+
+
 pokedex_mobile/
 ├── assets/
 │   └── images/                # GIFs e PNGs dos Pokémon e Insígnias
