@@ -6,6 +6,8 @@ Bem-vindo ao **Pokédex Mobile**, um aplicativo interativo inspirado no universo
 
 O aplicativo traz uma experiência completa de um **Trainer Card** (Cartão de Treinador) interativo, exibindo perfil do treinador, insígnias de ginásio e um time de Pokémon detalhado com navegação para telas individuais.
 
+### 📸 Telas do Aplicativo
+
 <p align="center">
   <img src="tela1.png" width="23%" alt="Tela 1" />
   <img src="tela2.png" width="23%" alt="Tela 2" />
