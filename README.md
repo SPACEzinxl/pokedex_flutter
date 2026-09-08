@@ -1,12 +1,12 @@
+# ⚡ Pokédex Mobile & Trainer Card | Primeiro Projeto em Flutter 🎮
 
+Uma aplicação mobile moderna e interativa inspirada na franquia Pokémon, desenvolvida como projeto prático para consolidar fundamentos de **Flutter** e **Dart**!
 
-# ⚡ Pokédex Mobile / Trainer Card — Meu Primeiro Projeto em Flutter 🎮
+O app simula a experiência de um **Cartão de Treinador (Trainer Card)** digital, integrando perfil personalizado, coleção de insígnias de ginásio com rolagem horizontal e um time de batalha com suporte a GIFs animados e navegação individual para cada Pokémon.
 
-Bem-vindo ao **Pokédex Mobile**, um aplicativo interativo inspirado no universo Pokémon desenvolvido como o meu primeiro projeto em **Flutter** e **Dart**! 🎉
+---
 
-O aplicativo traz uma experiência completa de um **Trainer Card** (Cartão de Treinador) interativo, exibindo perfil do treinador, insígnias de ginásio e um time de Pokémon detalhado com navegação para telas individuais.
-
-### 📸 Telas do Aplicativo
+## 📸 Capturas de Tela
 
 <p align="center">
   <img src="tela1.png" width="23%" alt="Tela 1" />
@@ -24,50 +24,54 @@ O aplicativo traz uma experiência completa de um **Trainer Card** (Cartão de T
 
 ---
 
-## 📱 Funcionalidades do Aplicativo
+## 🚀 Recursos & Funcionalidades
 
-### 🆔 1. Trainer Card (Perfil do Treinador)
-- **Perfil Customizado**: Avatar do treinador, nome (*Samuel Fernando*) e indicador de pontuação/moedas.
-- **Badge de Categoria**: Tag estilizada (*Kanto League Champion*).
+### 🆔 1. Perfil do Treinador (Trainer Card)
+- **Painel Personalizado:** Exibição da foto de perfil do treinador (*Samuel Fernando*), ID único e indicador de pontos/conquistas.
+- **Selo de Título:** Destaque visual customizado para o status de *Kanto League Champion* com ícone de troféu.
 
-### 🏅 2. Galeria de Insígnias (Kanto Badges)
-- Carrossel horizontal rolável (`SingleChildScrollView`) exibindo as **8 Insígnias da Liga Kanto**:
+### 🏅 2. Galeria Interativa de Insígnias
+- Carrossel horizontal intuitivo (`SingleChildScrollView`) apresentando a coleção completa de **Insígnias da Região de Kanto**:
   - Insígnia da Rocha (*Boulder Badge*)
   - Insígnia da Cascata (*Cascade Badge*)
   - Insígnia do Trovão (*Thunder Badge*)
-  - Insígnia do Arco-Íris (*Rainbow Badge*)
-  - Insígnia da Alma (*Soul Badge*)
-  - Insígnia do Trovão / Aço (*Marsh Badge*)
+  - Insígnia do Lama / Alma (*Rainbow & Soul Badges*)
   - Insígnia do Vulcão (*Volcano Badge*)
   - Insígnia da Terra (*Earth Badge*)
+- **Destaque Visual:** Bordas douradas estilizadas em cada insígnia.
 
-### ⚔️ 3. Battle Team (Time de Batalha)
-- Grid de Pokémon com imagens e GIFs animados:
+### ⚔️ 3. Esquadrão de Batalha (Battle Team)
+- Grid responsiva (`GridView.builder`) apresentando a equipe principal composta por:
+  - **Greninja** 🥷
   - **Charizard** 🔥
-  - **Lucario** 👊
   - **Gengar** 👻
   - **Garchomp** 🐉
   - **Tyranitar** 🪨
   - **Gardevoir** 🔮
-- **Navegação Dinâmica**: Ao clicar em qualquer Pokémon do time, o usuário abre a tela individual correspondente (`charizard_page.dart`, `garchomp_page.dart`, etc.).
+- **Navegação Dinâmica:** Toque em qualquer membro da equipe para transicionar diretamente para a sua respectiva tela detalhada (`charizard_page.dart`, `garchomp_page.dart`, etc.).
 
 ---
 
-## 🎨 Arquitetura e Organização de Código
+## 🛠️ Tecnologias Utilizadas
 
-O projeto segue boas práticas de organização em Flutter, separando telas, regras e estilos visuais em diretórios estruturados:
+- **Framework:** [Flutter](https://flutter.dev/) (3.x)
+- **Linguagem:** [Dart](https://dart.dev/)
+- **UI & Componentes:** `GridView`, `SingleChildScrollView`, `InkWell`, `ElevatedButton`, `BoxDecoration`.
+- **Gerenciamento de Assets:** Renderização de arquivos PNG estáticos e GIFs animados para dinamismo visual.
+
+---
+
+## 📂 Estrutura do Projeto
+
+O código foi organizado seguindo princípios de modularidade e separação de responsabilidades para manter uma arquitetura limpa e escalável:
 
 ```text
-
-
-
-
 pokedex_mobile/
 ├── assets/
-│   └── images/                # GIFs e PNGs dos Pokémon e Insígnias
+│   └── images/                 # Mídias do app (GIFs dos Pokémon, avatares e insígnias)
 ├── lib/
-│   ├── main.dart              # Ponto de entrada da aplicação
-│   ├── pages/                 # Telas do aplicativo
+│   ├── main.dart               # Ponto de inicialização do app
+│   ├── pages/                  # Views / Telas da aplicação
 │   │   ├── home_page.dart
 │   │   ├── login_page.dart
 │   │   ├── treinador_page.dart
@@ -76,7 +80,7 @@ pokedex_mobile/
 │   │   ├── gardevoir_page.dart
 │   │   ├── gengar_page.dart
 │   │   └── tyranitar_page.dart
-│   └── styles/                # Estilizações e temas centralizados
+│   └── styles/                 # Estilos, temas e cores centralizadas
 │       ├── home_style.dart
 │       ├── login_style.dart
 │       └── treinador_style.dart
