@@ -6,6 +6,29 @@ O aplicativo traz uma experiência completa de um **Trainer Card** (Cartão de T
 
 ---
 
+## 🎬 Demonstração & Screenshots
+
+### 📹 Vídeo do Aplicativo em Ação
+<video src="videoaplicativo.mp4" controls width="100%"></video>
+
+### 📸 Telas do Aplicativo
+
+<p align="center">
+  <img src="tela1.png" width="23%" alt="Tela 1" />
+  <img src="tela2.png" width="23%" alt="Tela 2" />
+  <img src="tela3.png" width="23%" alt="Tela 3" />
+  <img src="tela4.png" width="23%" alt="Tela 4" />
+</p>
+
+<p align="center">
+  <img src="tela5.png" width="23%" alt="Tela 5" />
+  <img src="tela6.png" width="23%" alt="Tela 6" />
+  <img src="tela7.png" width="23%" alt="Tela 7" />
+  <img src="tela8.png" width="23%" alt="Tela 8" />
+</p>
+
+---
+
 ## 📱 Funcionalidades do Aplicativo
 
 ### 🆔 1. Trainer Card (Perfil do Treinador)
@@ -42,10 +65,10 @@ O projeto segue boas práticas de organização em Flutter, separando telas, reg
 ```text
 pokedex_mobile/
 ├── assets/
-│   └── images/               # GIFs e PNGs dos Pokémon e Insígnias
+│   └── images/                # GIFs e PNGs dos Pokémon e Insígnias
 ├── lib/
-│   ├── main.dart             # Ponto de entrada da aplicação
-│   ├── pages/                # Telas do aplicativo
+│   ├── main.dart              # Ponto de entrada da aplicação
+│   ├── pages/                 # Telas do aplicativo
 │   │   ├── home_page.dart
 │   │   ├── login_page.dart
 │   │   ├── treinador_page.dart
@@ -54,7 +77,7 @@ pokedex_mobile/
 │   │   ├── gardevoir_page.dart
 │   │   ├── gengar_page.dart
 │   │   └── tyranitar_page.dart
-│   └── styles/               # Estilizações e temas centralizados
+│   └── styles/                # Estilizações e temas centralizados
 │       ├── home_style.dart
 │       ├── login_style.dart
 │       └── treinador_style.dart
