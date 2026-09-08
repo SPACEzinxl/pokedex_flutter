@@ -1,3 +1,5 @@
+
+
 # ⚡ Pokédex Mobile / Trainer Card — Meu Primeiro Projeto em Flutter 🎮
 
 Bem-vindo ao **Pokédex Mobile**, um aplicativo interativo inspirado no universo Pokémon desenvolvido como o meu primeiro projeto em **Flutter** e **Dart**! 🎉
@@ -9,7 +11,7 @@ O aplicativo traz uma experiência completa de um **Trainer Card** (Cartão de T
 ## 🎬 Demonstração & Screenshots
 
 ### 📹 Vídeo do Aplicativo em Ação
-<video src="videoaplicativo.mp4" controls width="100%"></video>
+<video src="https://raw.githubusercontent.com/SPACEzinxl/pokedex_flutter/main/videoaplicativo.mp4" autoplay loop muted playsinline controls width="100%"></video>
 
 ### 📸 Telas do Aplicativo
 
